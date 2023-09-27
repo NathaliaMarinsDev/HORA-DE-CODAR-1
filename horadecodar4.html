@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var base = prompt("Digite a base do retângulo: ");
+        var altura = prompt("Digite a altura do retângulo: ");
+        var area = parseInt(base) * parseInt(altura);
+
+        alert("Com base nas medidas informadas, a area do retângulo é de: " + area + " m²");
+
+        //Quadrado:
+
+        var lado = prompt("Digite o lado do quadrado: ");
+        var area = parseInt(lado) ** 2;
+
+        alert("Com base nas medidas informadas, a area do quadrado é de: " + area + " m²");
+
+        //Losango:
+
+        var diagonal_maior = prompt("Digite o valor da diagonal maior: ");
+        var diagonal_menor = prompt("Digite o valro da diagonal menor: ");
+        var area = parseInt(diagonal_maior) * parseInt(diagonal_menor) / 2;
+
+        alert("Com base nas medidas informadas, a area do losango é de: " + area + " m²");
+
+        //Trapézio
+
+        var base_maior = prompt("Digite o valor da base maior: ");
+        var base_menor = prompt("Digite o valor da base menor: ");
+        var altura_trapezio = prompt("Digite a altura do Trapezio: ");
+        var area = (parseInt(base_maior) + parseInt(base_menor)) * parseInt(altura_trapezio) / 2;
+
+        alert("Com base nas medidas informadas, a area do trapezio é de: " + area + " m²");
+
+        //Paralelogramo
+
+        var base_paralelogramo = prompt("Informe a base do paralelogramo: ");
+        var altura_paralelogramo = prompt("Informe a altura do paralelogramo: ");
+
+        area_aralelogramo = parseInt(base_paralelogramo) * parseInt(altura_paralelogramo);
+
+        alert("Com base nas medidas informadas, a area do paralelogramo é de: " + area + " m²");
+
+        //Triangulo
+
+        var base_triangulo = prompt("Digite o valor da base do triangulo: ");
+        var altura_triangulo = prompt("Digite a altura do triangulo: ");
+        var area = parseInt(base_triangulo) * parseInt(altura_triangulo) / 2;
+
+        alert("Com base nas medidas informadas, a area do triangulo é de: " + area + " m²");
+
+        //Circulo
+
+        var raio = prompt("Informe o raio da circunferência: ");
+        raio = parseInt(raio);
+        area_circulo = 3.14 * raio ** 2;
+
+        var area_formatada = area_circulo.toFixed(2);
+
+        alert("A área do círculo equivale a " + area_formatada + " cm²");
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
